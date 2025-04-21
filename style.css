@@ -1,18 +1,39 @@
+/* General Body Styles */
 body {
   font-family: Arial, sans-serif;
   padding: 20px;
   max-width: 800px;
   margin: auto;
-}
-h1 {
   text-align: center;
 }
+
+/* Heading Style */
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+/* Avatar Style */
+.avatar-wrap {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.avatar {
+  width: 120px;
+  height: auto;
+  border-radius: 50%;
+  border: 3px solid #007BFF;
+}
+
+/* Option Grid */
 .option-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   gap: 20px;
   margin-top: 30px;
 }
+
+/* Option Style */
 .option {
   border: 2px solid #ccc;
   padding: 10px;
@@ -26,7 +47,16 @@ h1 {
   height: auto;
   border-radius: 6px;
 }
+
+/* Selected Option Styles */
 .option.selected {
   border-color: #007BFF;
   background-color: #EAF1FF;
+}
+
+/* Additional Image Styling */
+.option p {
+  margin-top: 10px;
+  font-size: 1em;
+  font-weight: bold;
 }
